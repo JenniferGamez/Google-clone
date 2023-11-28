@@ -117,8 +117,13 @@ main .section-button{
     display: flex;
     justify-content: center;
 }
-main .section-button div{
+main .section-button input{
     margin: 5px;
+    cursor: pointer;
+    border: 1px solid #e8eaed;
+    border-radius: 6px;
+    min-width: 56px;
+    height: 36px;
 }
 footer {
     width: 100%;
